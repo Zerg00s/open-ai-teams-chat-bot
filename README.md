@@ -14,23 +14,23 @@ The HTTP connector is used to send an HTTP request to the OpenAI API, which requ
 
 To use these flows, you will need an API key from OpenAI. You can sign up for a free account at [the OpenAI website](https://openai.com/) and get your API key from the dashboard.
 
-![](img/2023-02-18-22-08-27.png)
+![](IMG/2023-02-18-22-08-27.png)
 
 
 ## Flows
 
 Both flows are nearly identical and have the following actions:
 
-![](img/2023-02-18-22-14-08.png)
+![](IMG/2023-02-18-22-14-08.png)
 
 
 ### OpenAI Flow
 
-The OpenAI flow (Get Answer from OpenAI MS Teams.zip) is designed to work with the Standalone OpenAI service. It uses an HTTP action to send a POST request to the OpenAI API, with the prompt variable as the value for the prompt key. The response is then parsed using the JSON schema provided and the answer is posted in the Teams channel using the "Reply with a message in a channel" action.
+The OpenAI flow ([Get Answer from OpenAI MS Teams.zip](https://github.com/Zerg00s/open-ai-teams-chat-bot/raw/main/Get%20Answer%20from%20OpenAI%20MS%20Teams.zip)) is designed to work with the Standalone OpenAI service. It uses an HTTP action to send a POST request to the OpenAI API, with the prompt variable as the value for the prompt key. The response is then parsed using the JSON schema provided and the answer is posted in the Teams channel using the "Reply with a message in a channel" action.
 
 ### Azure OpenAI Flow
 
-The Azure OpenAI flow (GetAnswerfromAzureOpenAI-MSTeams.zip) is designed to work with the OpenAI service provided as part of your Azure subscription. It uses an HTTP action to send a POST request to the OpenAI API, with the prompt variable as the value for the prompt key. The API key is added to the Authorization header with the value Bearer. The response is then parsed using the JSON schema provided and the answer is posted in the Teams channel using the "Reply with a message in a channel" action.
+The Azure OpenAI flow ([GetAnswerfromAzureOpenAI-MSTeams.zip](https://github.com/Zerg00s/open-ai-teams-chat-bot/raw/main/GetAnswerfromAzureOpenAI-MSTeams.zip)) is designed to work with the OpenAI service provided as part of your Azure subscription. It uses an HTTP action to send a POST request to the OpenAI API, with the prompt variable as the value for the prompt key. The API key is added to the Authorization header with the value Bearer. The response is then parsed using the JSON schema provided and the answer is posted in the Teams channel using the "Reply with a message in a channel" action.
 
 
 ## Differences between two flows
@@ -41,7 +41,7 @@ The body of the request is a little different too.
 
 Also, the URL in Azure-based OpenAI service contains a name of your resource as well as the model name.
 
-![](img/2023-02-18-22-10-25.png)
+![](IMG/2023-02-18-22-10-25.png)
 
 ## Conclusion
 
