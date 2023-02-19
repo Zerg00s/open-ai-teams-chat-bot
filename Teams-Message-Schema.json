@@ -1,0 +1,85 @@
+{
+    "type": "object",
+    "properties": {
+        "@@odata.type": {
+            "type": "string"
+        },
+        "etag": {
+            "type": "string"
+        },
+        "messageType": {
+            "type": "string"
+        },
+        "createdDateTime": {
+            "type": "string"
+        },
+        "lastModifiedDateTime": {
+            "type": "string"
+        },
+        "importance": {
+            "type": "string"
+        },
+        "locale": {
+            "type": "string"
+        },
+        "webUrl": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "from": {
+            "type": "object",
+            "properties": {
+                "user": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "string"
+                        },
+                        "displayName": {
+                            "type": "string"
+                        },
+                        "userIdentityType": {
+                            "type": "string"
+                        },
+                        "tenantId": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "type": "object",
+            "properties": {
+                "contentType": {
+                    "type": "string"
+                },
+                "content": {
+                    "type": "string"
+                }
+            }
+        },
+        "channelIdentity": {
+            "type": "object",
+            "properties": {
+                "teamId": {
+                    "type": "string"
+                },
+                "channelId": {
+                    "type": "string"
+                }
+            }
+        },
+        "attachments": {
+            "type": "array"
+        },
+        "mentions": {
+            "type": "array"
+        },
+        "reactions": {
+            "type": "array"
+        }
+    }
+}
