@@ -37,6 +37,8 @@ The OpenAI flow ([Get Answer from OpenAI MS Teams.zip](https://github.com/Zerg00
 
 The Azure OpenAI flow ([GetAnswerfromAzureOpenAI-MSTeams.zip](https://github.com/Zerg00s/open-ai-teams-chat-bot/raw/main/GetAnswerfromAzureOpenAI-MSTeams.zip)) is designed to work with the OpenAI service provided as part of your Azure subscription. It uses an HTTP action to send a POST request to the OpenAI API, with the prompt variable as the value for the prompt key. The API key is added to the Authorization header with the value Bearer. The response is then parsed using the JSON schema provided and the answer is posted in the Teams channel using the "Reply with a message in a channel" action.
 
+[💡 You can follow this short manual on how to setup the flow here.](https://github.com/Zerg00s/open-ai-teams-chat-bot/issues/1)
+
 
 ## Differences between two flows
 
